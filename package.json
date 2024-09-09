@@ -17,7 +17,7 @@
     "default": ".",
     "commands": "./lib/commands"
   },
-  "repository": "contentful-userland/cf-content-types-generator",
+  "repository": "KrisHaney-brightway/cf-content-types-generator",
   "files": [
     "/bin",
     "/lib"
