@@ -101,7 +101,7 @@ export class V10ContentTypeRenderer extends BaseContentTypeRenderer {
     return {
       name: renderTypeGeneric(
         context.moduleName(contentType.sys.id),
-        'Modifiers extends ChainModifiers',
+        'Modifiers extends ChainModifiers = "WITHOUT_UNRESOLVABLE_LINKS"',
         'Locales extends LocaleCode = LocaleCode',
       ),
       isExported: true,
